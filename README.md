@@ -15,7 +15,7 @@
 <img width="1293" alt="image" src="https://github.com/HARSHIL00-7/BDMS/assets/74018905/35664d21-03a9-47a6-ac80-042697f47a89">
 
 6)Admin Dashboard
-<img width="1293" alt="image" src="https://github.com/HARSHIL00-7/BDMS/assets/74018905/97c52f63-2fc0-4b62-a9b7-46d804b8a8c9">
+<img width="1290" alt="image" src="https://github.com/HARSHIL00-7/BDMS/assets/74018905/a026890d-5208-4876-840f-2783d29a969d">
 
 
 # Blood-Bank-&-Donation-Management-System
