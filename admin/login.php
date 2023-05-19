@@ -8,13 +8,13 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script></head>
-<body background="admin_image\blood-cells.jpg">
+<body background="admin_image\bdc442.jpeg">
 
 
   <form class="" action="<?php $_SERVER['PHP_SELF']; ?>" method="post">
 
     <div class="container" style="margin-top:200px;">
-      <div class="row justify-content-center">
+      <div class="row justify-content-left">
           <div class="col-lg-6">
               <h1 class="mt-4 mb-3" style="color:#D2F015 ;">
                   Blood Bank & Management
@@ -23,25 +23,31 @@
 
             </div>
       </div>
-      <div class="card" style="height:250px; background-image:url('admin_image/glossy1.jpg');">
-          <div class="card-body">
-
-      <div class="row justify-content-lg-center justify-content-mb-center" >
+      <div class="card" style="height: 250px;px;width: 40%; background-image:url('admin_image/glossy1.jpg');">
+     
+          <div class="card-body" style="width=50%">
+         
+      <div class="row justify-content-lg-left justify-content-mb-left" >
       <div class="col-lg-6 mb-6 ">
       <div class="font-italic" style="font-weight:bold">Username<span style="color:red">*</span></div>
-      <div><input type="text" name="username" placeholder="Enter your username" class="form-control" value="" required></div>
+      <div><input type="text" name="username" placeholder="Enter your username" class="form-control" style="width:160%" value="" required></div>
     </div>
     </div>
-    <div class="row justify-content-lg-center justify-content-mb-center">
+    <div class="row justify-content-lg-left justify-content-mb-left">
     <div class="col-lg-6 mb-6 "><br>
     <div class="font-italic"style="font-weight:bold">Password<span style="color:red">*</span></div>
-    <div><input type="password" name="password" placeholder="Enter your Password" class="form-control" value="" required></div>
+    <div><input type="password" name="password" placeholder="Enter your Password" class="form-control" style="width:160%" value="" required></div>
     </div>
   </div>
-  <div class="row justify-content-lg-center justify-content-mb-center">
+  <div class="row justify-content-lg-left justify-content-mb-left">
     <div class="col-lg-4 mb-4 " style="text-align:center"><br>
-    <div><input type="submit" name="login" class="btn btn-primary" value="LOGIN" style="cursor:pointer"></div>
+  
+    <div><input type="submit" name="login" class="btn btn-primary" value="LOGIN" style="cursor:pointer">
+  </div>
+  <div style="margin-top: -38px; margin-left:100px;"><a href="../home.php"><input type="button" name="Homepage" class="btn btn-primary" value="Not Admin? Home Page" style="cursor:pointer; margin-left: 3%"></a></div>
     </div>
+    </div>
+
   </div>
     </div>
   </div></div>
