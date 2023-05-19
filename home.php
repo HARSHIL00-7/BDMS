@@ -44,10 +44,10 @@ include('head.php'); ?>
     <!-- The slideshow -->
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <img src="image\_107317099_blooddonor976.jpg" alt="image\_107317099_blooddonor976.jpg" width="100%" height="500">
+        <img src="bdcposter.jpg" alt="bdcposter.jpg" width="100%" height="500">
       </div>
       <div class="carousel-item">
-        <img src="image\Blood-facts_10-illustration-graphics__canteen.png" alt="image\Blood-facts_10-illustration-graphics__canteen.png" width="100%" height="500">
+        <img src="Blood-Donation-1.jpg" alt="Blood-Donation-1.jpg" width="100%" height="500">
       </div>
 
     </div>

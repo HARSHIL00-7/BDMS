@@ -14,7 +14,7 @@
   }
 }
 .blue {
-    background: #347fd0;
+    background: #1EDCB9;
 }
 
 .news {
@@ -54,7 +54,7 @@
 </head>
 <body>
 <div class="news blue">
-<span style="background-color:#F60F0F;width:125px;height:50px">Latest Updates</span><span class="text1" ><marquee>First blood donation camp to be organised in Manipal University Jaipur By Harshil,Tanishk,Samarth,Harshit in collabration with Blood Bank& Donation Management System on <b>01/09/2020 at Community Centre PLA.</b> Come and Be a Part of this Noble Cause :) </marquee></span>
+<span style="background-color:#F60F0F;width:125px;height:50px">Latest Updates</span><span class="text1" ><marquee>First blood donation camp to be organised in Manipal University Jaipur By Harshil Kumar  in collabration with Blood Bank& Donation Management System on <b>01/05/2023 at Community Centre PLA.</b> Come and Be a Part of this Noble Cause :) </marquee></span>
 </div>
 </body>
 </head>

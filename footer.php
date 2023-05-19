@@ -16,10 +16,10 @@
 </head>
 <body>
   <div id="footer" >
-  <b><center>COPYRIGHT © 2022<br>
+  <b><center>Developed by Harshil Kumar<br>
   Blood Bank & Donation Management
   <br>
-  ALL RIGHTS RESERVED.
+Manipal University Jaipur
   </center>
   </div>
 

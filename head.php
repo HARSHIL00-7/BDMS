@@ -80,6 +80,7 @@ a.logo2{
       <a href="donate_blood.php"  <?php if($active=='donate') echo "class='act'"; ?>>Become A Donor</a>
       <a href="need_blood.php" <?php if($active=='need') echo "class='act'"; ?>>Need Blood</a>
       <a href="contact_us.php" <?php if($active=='contact') echo "class='act'"; ?>>Contact Us</a>
+      <a href="admin/login.php"  <?php if($active=='about') echo "class='act'"; ?> >Admin Login</a>
     </div>
   </div>
 
