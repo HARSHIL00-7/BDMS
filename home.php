@@ -71,7 +71,7 @@ include('head.php'); ?>
                         <p class="card-body overflow-auto" style="padding-left:2%;height:120px;text-align:left;">
                           <?php
                             include 'conn.php';
-                            $sql=$sql= "select * from pages where page_type='needforblood'";
+                            $sql="select * from pages where page_type='needforblood'";
                             $result=mysqli_query($conn,$sql);
                             if(mysqli_num_rows($result)>0)   {
                                 while($row = mysqli_fetch_assoc($result)) {
@@ -90,7 +90,7 @@ include('head.php'); ?>
                     <p class="card-body overflow-auto" style="padding-left:2%;height:120px;text-align:left;">
                       <?php
                         include 'conn.php';
-                        $sql=$sql= "select * from pages where page_type='bloodtips'";
+                        $sql= "select * from pages where page_type='bloodtips'";
                         $result=mysqli_query($conn,$sql);
                         if(mysqli_num_rows($result)>0)   {
                             while($row = mysqli_fetch_assoc($result)) {
@@ -110,7 +110,7 @@ include('head.php'); ?>
                     <p class="card-body overflow-auto" style="padding-left:2%;height:120px;text-align:left;">
                       <?php
                         include 'conn.php';
-                        $sql=$sql= "select * from pages where page_type='whoyouhelp'";
+                        $sql= "select * from pages where page_type='whoyouhelp'";
                         $result=mysqli_query($conn,$sql);
                         if(mysqli_num_rows($result)>0)   {
                             while($row = mysqli_fetch_assoc($result)) {
@@ -165,7 +165,7 @@ include('head.php'); ?>
                 <p>
                   <?php
                     include 'conn.php';
-                    $sql=$sql= "select * from pages where page_type='bloodgroups'";
+                    $sql= "select * from pages where page_type='bloodgroups'";
                     $result=mysqli_query($conn,$sql);
                     if(mysqli_num_rows($result)>0)   {
                         while($row = mysqli_fetch_assoc($result)) {
@@ -191,7 +191,7 @@ include('head.php'); ?>
             <p>
               <?php
                 include 'conn.php';
-                $sql=$sql= "select * from pages where page_type='universal'";
+                $sql= "select * from pages where page_type='universal'";
                 $result=mysqli_query($conn,$sql);
                 if(mysqli_num_rows($result)>0)   {
                     while($row = mysqli_fetch_assoc($result)) {
